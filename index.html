@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 7</title>
+    <style>
+        #estatico{
+            position: static;
+            background-color: magenta;
+            width: 100px;
+            height: 100px;
+            
+        }
+        #fijo{
+            position: fixed;
+            background-color: yellowgreen;
+            right: 200px;
+            bottom: 540px;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+        #absoluto{
+            position: absolute;
+            background-color: palevioletred;
+            left: 500px;
+            bottom: 490px;
+            width: 150px;
+            height: 150px;
+        }
+        #pegajoso{
+            position: sticky;
+            background-color: cyan;
+            top: 50px;
+            width: 50%;
+            height: 200px;
+            border: 3px solid green;
+        }
+    </style>
+</head>
+<body>
+    <h1>Propiedad position</h1>
+    <p>Tipos de position</p>
+    <ul>
+        <li>static</li>
+        <li>fixed</li>
+        <li>absolute</li>
+        <li>relative</li>
+        <li>sticky</li>
+    </ul>
+    <div id="estatico">estatico</div>
+    <div id="fijo">fixed</div> <!--se queda fijo en la pantalla-->
+    <div id="absoluto">absolut</div>
+    <div id="pegajoso">sticky</div>
+    
+</body>
+</html>
