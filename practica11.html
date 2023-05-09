@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <style>
+        /* para desktop */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: pink;
+            color: black;
+        }
+
+        /* para tablets */
+        @media screen and ( max-width:992px){
+            body {
+                background-color: red;
+                color: white;
+            }
+
+            h1 {
+                font-size: 22px;
+            }
+        }
+        /* para moviles */
+        @media screen and ( max-width:600px){
+            body {
+                background-color: greenyellow;
+                color: black;
+            }
+
+            h1 {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>boita noite homens, voce fala portugues? 
+        dejando el portugues de lado si le picas y cambias el tamano 
+        de la ventana veras que cambia de color ajajajja
+    </h1>
+</body>
+</html>
